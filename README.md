@@ -1,31 +1,31 @@
-# Ecuación de Poisson para el Potencial Gravitatorio de la Luna
+# Poisson's Equation for the Moon's Gravitational Potential
 
-**Autor:** Eduardo Avendaño
-**Fecha:** 23 de mayo de 2023
+**Author:** Eduardo Avendaño
+**Date:** May 23, 2023
 
 ---
 
-## Descripción
+## Description
 
-Este repositorio contiene la implementación en FEniCS para resolver la ecuación de Poisson ($\nabla^2 \Phi = 4\pi G \rho$) y calcular el potencial gravitatorio ($\Phi$) de la Luna, junto con el informe detallado del proyecto.
+This repository contains the FEniCS implementation for solving Poisson's equation ($\nabla^2 \Phi = 4\pi G \rho$) to calculate the Moon's gravitational potential ($\Phi$), along with the detailed project report.
 
-## Contenido del Repositorio
+## Repository Contents
 
-1.  **`LunaDensidadUniforme.ipynb`**: Jupyter Notebook con el código FEniCS para calcular el potencial gravitatorio asumiendo una **densidad lunar uniforme**.
-2.  **`informe_luna.pdf`**: Informe completo que describe la teoría, la implementación (tanto para densidad uniforme como para un modelo de densidad polinómica), los resultados, visualizaciones y conclusiones del estudio.
+1.  **`LunaDensidadUniforme.ipynb`**: Jupyter Notebook with the FEniCS code to calculate the gravitational potential assuming a **uniform lunar density**.
+2.  **`informe_luna.pdf`**: The complete project report (**written in Spanish**) detailing the theory, implementation (for both uniform and polynomial density models), results, visualizations, and conclusions of the study.
 
-## Tecnología Principal
+## Core Technology
 
-* FEniCS Project (Biblioteca de Elementos Finitos para Python)
+* FEniCS Project (Finite Element library for Python)
 * Python 3.x
 * NumPy
 
-## Detalles Completos
+## Full Details
 
-**Toda la información sobre la fundamentación teórica, la metodología detallada (incluyendo la formulación variacional, condiciones de frontera, y ambos modelos de densidad), los resultados completos, las gráficas y la discusión se encuentran exclusivamente en el archivo `informe_luna.pdf`.**
+**All information regarding the theoretical background, detailed methodology (including variational formulation, boundary conditions, and both density models), complete results, plots, and discussion can be found exclusively in the `informe_luna.pdf` file (language: Spanish).**
 
-## Ejecución
+## How to Run
 
-Para ejecutar el notebook `LunaDensidadUniforme.ipynb`, se requiere una instalación funcional de FEniCS y NumPy.
+To execute the `LunaDensidadUniforme.ipynb` notebook, a working installation of FEniCS and NumPy is required.
 
 ---
