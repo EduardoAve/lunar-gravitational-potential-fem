@@ -11,7 +11,7 @@ This repository contains the FEniCS implementation for solving Poisson's equatio
 
 ## Repository Contents
 
-1.  **`LunaDensidadUniforme.ipynb`**: Jupyter Notebook with the FEniCS code to calculate the gravitational potential assuming a **uniform lunar density**.
+1.  **`moon_potential_uniform_density.ipynb`**: Jupyter Notebook with the FEniCS code to calculate the gravitational potential assuming a **uniform lunar density**.
 2.  **`informe_luna.pdf`**: The complete project report (**written in Spanish**) detailing the theory, implementation (for both uniform and polynomial density models), results, visualizations, and conclusions of the study.
 
 ## Core Technology
